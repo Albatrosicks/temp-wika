@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+  <title>Search</title>
+  <link rel="stylesheet" href="style.css"></link>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    form {
+      text-align: center;
+    }
+    input[type="text"] {
+      width: 50%;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      padding: 10px 20px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <form action="/" method="get">
+    <input type="text" name="q" placeholder="Текст запроса...">
+    <input type="submit" value="Поиск">
+  </form>
+</body>
+</html>
